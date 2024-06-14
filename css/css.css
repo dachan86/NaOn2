@@ -1,0 +1,332 @@
+html{
+    min-height: 100%;
+}
+
+body.index{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 100%;
+}
+
+body.input{
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    min-height: 100%;
+}
+
+
+
+div.main{
+    width: 100%;
+    height: 100%;
+}     
+
+div.left{
+    width: 20%;
+    height: 200em;
+    float: left;
+    background-color: #f0f0f0;
+    margin-left: 0px;
+}
+
+div.right{
+    width: 20%;
+    height: 200em;
+    float: left;
+    background-color: #f0f0f0;
+    margin-right: 0px;
+}
+
+div.mid{
+    width: 60%;
+    height: 200em;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+div.main_top{    
+    width: 100%;
+    height: 10%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+div.main_mid{    
+    width: 100%;
+    height: 20%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    border: none;
+}
+
+div.main_bottom{    
+    width: 100%;
+    height: 70%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    background-color: #f0f0f0;
+}
+
+
+
+div.blink{
+    width: 100%;
+    height: 50%;
+}
+
+
+
+table, tr, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width: 100%;
+    height: initial;
+    float: center;
+}
+td{
+    padding: 2%;
+}
+th.name{
+    width: 20%;
+    font-size: 2em;
+}
+td.in{
+    width: 80%;
+}
+
+
+
+div.input{
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    background-color: #1596d2;
+}
+p.input{
+    font-size: 6em;
+    color: #ffffff;
+    border: 0.5em;
+    top: 50%;
+    left: 50%;
+}
+div.input:hover{
+    background-color: #022238;
+}
+
+div.introduce{
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    background-color: #bee6f5;
+}
+p.introduce{
+    font-size: 6em;
+    color: #000000;
+    border: 0.5em;
+    width: 100%;
+    height: 100%;
+}
+div.introduce:hover{
+    background-color: #022238;
+}
+p.introduce:hover{
+    color: #ffffff;
+}
+
+div.portfolio{
+    width: 33.33%;
+    height: 100%;
+    text-align: center;
+    background-color: #1596d2;
+}
+p.portfolio{
+    font-size: 6em;
+    color: #ffffff;
+    border: 0.5em;
+    top: 50%;
+    left: 50%;
+}
+div.portfolio:hover{
+    background-color: #022238;
+}
+
+
+
+
+
+div.main_mid_mini{    
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    display: flex;
+    border: none;
+}
+
+div.home_mini{
+    width: 25%;
+    text-align: center;
+    background-color: #c13d7b;
+}
+p.home_mini{
+    font-size: 2em;
+    color: #ffffff;
+    border: 0.5em;
+    top: 50%;
+    left: 50%;
+}
+div.home_mini:hover{
+    background-color: #022238;
+}
+
+div.input_mini{
+    width: 25%;
+    text-align: center;
+    background-color: #1596d2;
+}
+p.input_mini{
+    font-size: 2em;
+    color: #ffffff;
+    border: 0.5em;
+    top: 50%;
+    left: 50%;
+}
+div.input_mini:hover{
+    background-color: #022238;
+}
+
+div.introduce_mini{
+    width: 25%;
+    text-align: center;
+    background-color: #bee6f5;
+}
+p.introduce_mini{
+    font-size: 2em;
+    color: #000000;
+    border: 0.5em;
+    width: 100%;
+    height: 100%;
+}
+div.introduce_mini:hover{
+    background-color: #022238;
+}
+p.introduce_mini:hover{
+    color: #ffffff;
+}
+
+div.portfolio_mini{
+    width: 25%;
+    text-align: center;
+    background-color: #1596d2;
+}
+p.portfolio_mini{
+    font-size: 2em;
+    color: #ffffff;
+    border: 0.5em;
+    top: 50%;
+    left: 50%;
+}
+div.portfolio_mini:hover{
+    background-color: #022238;
+}
+
+
+/*표 줄제거용*/
+tr.noline{
+    border: none;
+}
+
+
+/*중간중간 div 구역나누기용 빈공간*/
+table.blink, tr.blink, td.blink{
+    border: 0px;
+}
+
+
+h1.title{
+    text-align: center;
+    padding: auto;
+    font-size: 6em;    
+}
+
+
+a.link_sky{
+    hover {
+        background-color: #2980b9; /* 올릴 때의 남색 */
+    }
+}
+
+a.link_blue{
+    hover {
+        background-color: #2980b9; /* 올릴 때의 남색 */
+    }
+}
+
+
+input{
+    font-size: 1.5em;
+}
+
+textarea{
+    font-size: 2em;
+    resize : both;
+}
+
+
+div.title{
+    width: 100%;
+    height: 15em;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #88cc88;
+}
+
+input.submitcss{
+    width: 100%;
+    float: center;
+    background-color: #333333;
+    font-size: 2em;
+    color: #ffffff
+}
+
+input.submitcss:hover{
+    cursor: pointer;
+}
+
+tr.table_blink{
+    background-color: #f0f0f0;
+}
+
+tr.table_introduce{
+    background-color: #bee6f5;
+}
+
+th.table_ontroduce-in{
+    font-size: 2em;
+    text-align: center;
+    padding: 1%;
+}
+
+td.table_ontroduce-in{
+    font-size: 2em;
+    text-align: center;
+    padding: 1%;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widtd=device-widtd, initial-scale=1.0">
+    <title>공개이력서 작성</title>
+
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <link rel="stylesheet" href="css/css.css">
+
+</head>
+
+
+<body class="input">
+
+    <div class="title">
+        <div class="main_top">
+            <h1 class="title">공개이력서 작성</h1>
+        </div>
+       </div>
+
+
+
+      
+
+       
+
+    <div class="main">
+
+        <div class="left">
+        </div>
+
+    <div class="mid">
+
+      <div class="main_mid_mini" style="position: sticky; top: 0;">
+        <div class="home_mini" onClick="location.href='index.html'" style="cursor:pointer;" title="공개이력서 작성 페이지 이동">
+          <p class="home_mini">홈화면으로</p>               
+       </div>
+        <div class="input_mini" onClick="location.href='input.html'" style="cursor:pointer;" title="공개이력서 작성 페이지 이동">
+           <p class="input_mini">공개이력서 작성</p>               
+        </div>
+        <div class="introduce_mini" onClick="location.href='introduce.html'" style="cursor:pointer;" title="대학생활 소개 페이지 이동">  
+           <p class="introduce_mini">대학생활 소개</p>             
+        </div>
+        <div class="portfolio_mini" onClick="location.href='portfolio.html'" style="cursor:pointer;" title="포트폴리오 소개 페이지 이동"> 
+           <p class="portfolio_mini">포트폴리오 소개</p>           
+        </div>
+      </div>
+
+      <form>
+      <table>
+       <tr>
+          <th class="name"><label for="my_name">이름</label></th>
+          <td class="in"><input type="text" id="my_name" name="my_name" placeholder="홍길동" style="width:100%;"></td>      
+        </tr>
+        <tr>
+          <th class="name"><label for="my_birth">생년월일</label></th>
+          <td class="in"><input type="text" id="my_birth" name="my_birth" placeholder="0000-00-00" style="width:100%;"></td>      
+         </tr>
+        <tr>
+          <th class="name"><label for="my_address">주소</label></th>
+          <td class="in"><input type="text" id="my_address" name="my_address" placeholder="서울특별시 관악구 보라매동 000-000 0층" style="width:100%;"></td>      
+         </tr>
+         <tr>
+          <th class="name"><label for="my_tel">연락처(집)</label></th>
+          <td class="in"><input type="text" id="my_tel" name="my_tel" placeholder="02-000-0000" style="width:100%;"></td>      
+          </tr>
+         <tr>
+          <th class="name"><label for="my_phone">연락처(핸드폰)</label></th>
+          <td class="in"><input type="text" id="my_phone" name="my_phone" placeholder="010-0000-0000" style="width:100%;"></td>      
+         </tr>
+        <tr>
+          <th class="name"><label for="my_email">이메일</label></th>
+          <td class="in"><input type="text" id="my_email" name="my_email" placeholder="xxxxxx@gmail.com" style="width:100%;"></td>      
+         </tr>
+         <tr>
+          <th class="name"><label for="my_portfolio">경력사항</label></th>
+          <td class="in"><textarea rows="30" id="my_portfolio" name="my_portfolio" placeholder="2000.00.00 OO고등학교 졸업." style="width:100%;"></textarea></td>      
+        </tr>
+         <tr>
+          <th class="name"><label for="my_picture">프로필 사진</label></td>
+          <td class="in"><input type="file" id="my_picture" name="my_picture" accept="image/png, image/jpeg"></td>      
+         </tr>
+      </table>
+      <input type="submit" value="제출하기" class="submitcss">
+      </form>      
+    </div>
+
+    <div class="right">
+    </div>
+    
+    </div>
+</body>
+
+</html>
